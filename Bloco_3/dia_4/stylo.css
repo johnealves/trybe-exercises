@@ -1,4 +1,55 @@
-ul li{
-    display: inline-block;
+* {
+    margin: 0;
+}
+header {
     padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul {
+    text-decoration: none;
+}
+.menu li{
+    display: inline-block;
+    padding: 7px;
+    background-color: rgb(189, 196, 183);
+    margin: 20px 10px;
+    border-radius: 5px;
+}
+li {
+    text-decoration: none;
+}
+body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+main {
+    width: 80%;
+}
+article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 1.6;
+    letter-spacing: .1px;
+    width: 60%;
+    margin-left: 5rem;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+aside{
+    position: absolute;
+    top: 150px;
+    left: 1050px;
+    float: right;
+    width: 350px;
+    height: 245px;
+    margin-right: 10px;
+    background-color: rgb(185, 194, 192);
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(49, 93, 158);
+    padding: 50px;
+    clear: both;
 }
