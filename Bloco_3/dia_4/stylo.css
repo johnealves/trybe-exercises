@@ -5,19 +5,20 @@ header {
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-ul {
-    text-decoration: none;
+nav {
+   margin-bottom: 50px;
+   text-decoration: none;
 }
 .menu li{
+    font-size: 20px;
     display: inline-block;
     padding: 7px;
-    background-color: rgb(189, 196, 183);
-    margin: 20px 10px;
-    border-radius: 5px;
+    list-style-type: none;
 }
 li {
     text-decoration: none;
 }
+
 body {
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -25,27 +26,35 @@ body {
 }
 main {
     width: 80%;
+    display: inline;
 }
 article {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 19px;
     line-height: 1.6;
     letter-spacing: .1px;
-    width: 60%;
-    margin-left: 5rem;
+    width: 40%;
+    margin-left: 20%;
     text-align: justify;
     margin-bottom: 50px;
+    display: inline-block;
+}
+table {
+    margin: auto;
+}
+table td {
+    text-align: left;
+    width: 40%
 }
 aside{
-    position: absolute;
-    top: 150px;
-    left: 1050px;
-    float: right;
     width: 350px;
     height: 245px;
-    margin-right: 10px;
+    margin: 10px;
     background-color: rgb(185, 194, 192);
     padding: 10px;
+    display: inline-block;
+    position: absolute;
+    position: fixed;
 }
 footer {
     text-align: center;
