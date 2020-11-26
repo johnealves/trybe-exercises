@@ -46,3 +46,24 @@ console.log(`o numero de valores impares ${impar}`)
 }
 
 //exercises 7
+let menor = 10000000000000000000000;
+for(c=0; c < numbers.length; c++) {
+    if (numbers[c] < menor) {
+        menor = numbers[c]
+    }
+}
+console.log(`O menor valor é ${menor}`)
+
+//exercises 8
+let numeros = [];
+for(c=1; c<=25; c++){
+    numeros.push(c)
+}
+console.log(`numeros = ${numeros}`)
+
+//exercises 9
+let numerosRes = []
+for(c=0; c < numeros.length; c++) {
+    numerosRes.push(numeros[c]%2)
+}
+console.log(`resto da divisão por 2 é ${numerosRes}`)
