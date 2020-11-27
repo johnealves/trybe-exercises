@@ -36,7 +36,7 @@ console.log(`O maior numero é ${maior}`)
 let impar = 0;
 for(c=0; c<numbers.length; c++) {
     if(numbers[c]%2 != 0) {
-        impar++
+        impar += 1
     }
 }
 if(impar == 0) {
@@ -46,7 +46,7 @@ console.log(`o numero de valores impares ${impar}`)
 }
 
 //exercises 7
-let menor = 10000000000000000000000;
+let menor = numbers[0];
 for(c=0; c < numbers.length; c++) {
     if (numbers[c] < menor) {
         menor = numbers[c]
@@ -63,7 +63,7 @@ console.log(`numeros = ${numeros}`)
 
 //exercises 9
 let numerosRes = []
-for(c=0; c < numeros.length; c++) {
-    numerosRes.push(numeros[c]%2)
+for(index=0; index < numeros.length; index++) {
+    numerosRes.push(numeros[index]/2 + '')
 }
-console.log(`resto da divisão por 2 é ${numerosRes}`)
+console.log(numerosRes)
