@@ -46,7 +46,7 @@ console.log(`o numero de valores impares ${impar}`)
 }
 
 //exercises 7
-let menor = 10000000000000000000000;
+let menor = numbers[0];
 for(c=0; c < numbers.length; c++) {
     if (numbers[c] < menor) {
         menor = numbers[c]
