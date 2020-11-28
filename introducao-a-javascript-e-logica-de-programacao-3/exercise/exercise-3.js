@@ -1,6 +1,6 @@
 //3- Agora inverta o lado do triângulo. Por exemplo:
 
-let n = 5
+let n = 5;
 let form = [];
 
 for(let k = 1; k <= n; k += 1) {

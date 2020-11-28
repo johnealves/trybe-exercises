@@ -1,8 +1,9 @@
 //4- Depois, faça uma pirâmide com n asteriscos de base:
 
-let n = 5
+let n = 15;
 let form = [];
 let centro = Math.ceil(n/2);
+let contador = 1;
 
 for(let k = 1; k <= n; k += 1) {
     if(k % 2 === 0) {
@@ -11,9 +12,10 @@ for(let k = 1; k <= n; k += 1) {
         }
         console.log(form)
         form = [];
+        contador += 1
     }else {
         for(let index = 1; index <= n; index +=1) {
-            if ( index > centro-(k-1) && index < centro+(k-1) || index === centro ) {
+            if ( index > centro-(contador) && index < centro+(contador) || index === centro ) {
                 form += '*';
             } else {
                 form += ' ';
