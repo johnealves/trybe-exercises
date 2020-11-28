@@ -1,4 +1,4 @@
-let n = 9;
+let n = 7;
 let form = [];
 let centro = Math.ceil(n/2);
 let contador = 0;
@@ -8,7 +8,6 @@ for(let k = 1; k <= n; k += 1) {
         for(let index = 0; index < n; index += 1) {
             form += ' ';
         }
-        console.log(form)
         form = [];
         contador += 1
     } else if (k === n) {
