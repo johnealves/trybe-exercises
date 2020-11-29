@@ -109,3 +109,89 @@ triangle(x, y, z)
 console.log(teste)
 console.log(' ');
 
+//movimento das peças de xadrez
+let nome = 'Cavalo';
+nome = 'rainha'
+let peca = nome.toLowerCase(); 
+let moviment;
+
+
+function movimentChess(peca) {
+    switch(peca) {
+        case 'bispo':
+            moviment = 'diagonais';
+            break;
+        case 'cavalo':
+            moviment = 'em "L"';
+            break;
+        case 'torre':
+            moviment = 'para frente para trás e para os lados';
+            break;
+        case 'rainha':
+            moviment = 'para todos os lados';
+            break;
+        case 'rei':
+            moviment = 'para todos os lados, porem somente uma casa';
+            break;
+        case 'peão':
+            moviment = 'so anda para frente uma casa por vez e so toma pedras na diagonal';
+            break;    
+        default:
+            moviment = 'erro'
+    } 
+    return moviment
+}
+
+movimentChess(peca)
+console.log(moviment)
+
+//notas de A a F
+let nota = 95;
+let resultadoBoletim
+
+function boletim(nota) {
+    if (nota >= 90 ) {
+        resultadoBoletim = 'nota A';
+    } else if (nota >= 80){
+        resultadoBoletim = 'nota B';
+    } else if (nota >= 70){
+        resultadoBoletim = 'nota C';
+    } else if (nota >= 60){
+        resultadoBoletim = 'nota D';
+    } else if (nota >= 50){
+        resultadoBoletim = 'nota E';
+    } else {
+        resultadoBoletim = 'nota F';
+    }
+
+    return resultadoBoletim
+}
+
+boletim(nota)
+console.log(resultadoBoletim)
+
+//função lucro sobre vendas
+let valorCusto = 6;
+let aliquota = 0.25;
+let imposto;
+let valorVenda = 10;
+let numeroDeVendas = 2000;
+let resultadoFinanceiro;
+let custoUnitario
+let custoTotal;
+let receitaTotal
+let lucroTotal;
+
+function lucroSobreVendas(numeroDeVendas, valorCusto, valorVenda, aliquota) {
+    imposto = aliquota * valorCusto
+    custoTotal = valorCusto + imposto;
+    lucro = valorVenda - custoTotal;
+    lucroTotal = lucro * numeroDeVendas;
+
+
+    return lucroTotal;
+}
+
+lucroSobreVendas(numeroDeVendas, valorCusto, valorVenda, aliquota)
+
+console.log(lucroTotal)

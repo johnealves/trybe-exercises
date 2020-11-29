@@ -1,7 +1,4 @@
 let nome = 'Cavalo';
-nome = 'raiNha';
-
-
 let peca = nome.toLowerCase(); 
 
 switch(peca) {
