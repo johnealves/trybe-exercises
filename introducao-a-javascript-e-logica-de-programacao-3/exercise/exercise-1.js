@@ -9,7 +9,7 @@ for (let index = 0; index < n; index +=1){
   
 for (let indice = 0; indice < n; indice += 1) {
     console.log(square)
-}   
+}
 
 
   
