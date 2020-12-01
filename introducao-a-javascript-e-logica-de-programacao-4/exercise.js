@@ -76,7 +76,7 @@ let indice = 0;
   return indice;
  }
 
-indiceMaiorValor(arrayTest)
+indiceMaiorValor([2, 3000, 6, 7, 10, 100])
 
 console.log('O indice do maior valor é '+indice);
 
