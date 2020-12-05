@@ -114,17 +114,27 @@ function sextou () {
 // Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
 // . event.target Dica - Propriedade:
 
+function zoomIn(evento) {
+  evento.target.style.transform = 'scale(1.9)'
+}
+function zoomOut(evento) {
+  evento.target.style.transform = 'scale(1)'
+}
+
+function zoomMouse() {
+  let dezDays = document.querySelectorAll('.day');
+  for (let index = 0; index < dezDays.length; index += 1) {
+    dezDays[index].addEventListener('mouseover', zoomIn)
+    dezDays[index].addEventListener('mouseout', zoomOut)
+  }
+}
+zoomMouse()
 
 
 
 
-/*let daysList = document.querySelector('#days');
 
-daysList.addEventListener('mouseover', zoom)
 
-// function zoom (event) {
-//     event.target.style.zoom = '150%';
-// }*/
 
 
 
@@ -162,7 +172,7 @@ addButton.addEventListener('click', function () {
     }
 
 
-    
+
 
 
 
