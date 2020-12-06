@@ -141,7 +141,6 @@ function zoomIn(evento) {
 }
 function zoomOut(evento) {
     evento.target.style.transform = 'scale(1)'
-
 }
 
 function zoomMouse() {
@@ -217,12 +216,14 @@ function addTaskList () {
   let taskText = task.value;
   let itemList = document.createElement('li');
   itemList.innerHTML = taskText;
-  list.appendChild(itemList)
+  if (taskText === '') {
+    alert('ERRO! escreva um compromisso para adicionar')
+  } else {
+    list.appendChild(itemList)
+  }
 }
 function addComp () {
   let button = document.getElementById('btn-add');
-  let task = document.getElementById('task-input');
-  let taskText = task.Value;
   button.addEventListener('click', addTaskList)
 }
 addComp()
