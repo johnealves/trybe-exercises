@@ -225,6 +225,15 @@ function addTaskList () {
 function addComp () {
   let button = document.getElementById('btn-add');
   button.addEventListener('click', addTaskList)
+  let task = document.getElementById('task-input');
+  task.addEventListener('keyup', pressEnter)
+
 }
 addComp()
 
+function pressEnter(event) {
+  let button = document.getElementById('btn-add');
+  if (event.keyCode === 13) {
+    button.click();
+  }
+}
