@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <form action="" method="get">
+    <fieldset>
+      <label for="nome-completo" class="cadastro">Nome completo: 
+        <input type="text" name="nome" id="nome-completo" maxLength='40' required>
+      </label><br>
+      <label for="input-email">E-mail: 
+        <input type="email" name="e-mail" id="input-email" maxlength="50" required>
+      </label><br>
+      <label for="input-cpf">CPF: 
+        <input type="text" id='input-cpf' maxLength='11' required>
+      </label><br>
+      <label for="input-endereco">Endereço: 
+        <input type="text" id="input-endereco" required>
+      </label><br>
+      <label for="">Cidade: 
+        <input type="text" maxlength="28" required>
+      </label><br>
+      <label for="estado">Estado
+        <select name="estado" id="estado">
+          <!-- Tenho que voltar aqui -->
+        </select>
+      </label><br>
+      <span>Tipo de residencia:</span>
+      <label for="residencia">
+        <input type="radio" name="residencia" id="residencia" value=""> Casa
+      </label>
+      <label for="ap">
+        <input type="radio" name="residencia" id="ap" value=""> Apartamento
+      </label>
+    </fieldset>
+  <br>
+    <fieldset>
+      <label for="resumo-cv"> Resumo do curriculo: <br>
+        <textarea name="resumo" id="resumo-cv" cols="30" rows="10" maxlength="1000"></textarea>
+      </label><br>
+      <label for="cargoText">Cargo: 
+        <input type="text" name="" id="cargoText" maxlength="40" required>
+      </label><br>
+      <label for="descricao-cargo">Descrição do cargo: 
+        <input type="text" name="" id="descricao-cargo">
+      </label><br>
+      <label for="data">Data de Inicio
+        <input type="date" name="" id="data" required>
+      </label>
+    </fieldset>
+    <button type="submit">Enviar</button>
+  </body>
+  <script src="script.js"></script>
+</body>
+</html>
