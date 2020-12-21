@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.conteiner {
+  display: flex;
+}
+
+header {
+  background-color: rgb(68, 98, 196);
+  font-size: 20px;
+  width: 100%;
+}
+
+header p {
+  font-size: 35px;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.aside-basis {
+  background: rgb(203, 199, 206);
+  float: left;
+  width: 24%;
+}
+
+.main-content {
+  margin-left: 26%;
+  text-align: justify;
+  width: 60%;;
+}

@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+.aside-basis {
+  float: none;
+  width: 100%;
+}
+
+.main-content {
+  margin: auto;
+  width: 95%;
+}
