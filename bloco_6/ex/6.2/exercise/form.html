@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- jquery -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- pickday -->
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario curriculo</title>
+</head>
+<body>
+  <h1 class="h1" >Formulario</h1>
+  <form action="" method="GET">
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <div class="mb-3">
+        <label class="form-label"for="name">Nome: </label>
+        <input class='form-control' id="name" name="nome" type="text" maxlength="40" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label" for="email" name=email>E-mail: </label>
+        <input class='form-control' type="email" name="email" id="email" maxlength="50" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label" for="input-cpf">CPF: </label>
+        <input class='form-control' type="text" name="cpf" id="input-cpf" maxlength='11' required>
+      </div>
+
+      <div class="mb-3">
+        
+      </div><div class="mb-3">
+        <label class="form-label" for="input-address">Endereço: </label>
+        <input class='form-control' type="text" maxlength="200" required id="input-address">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label" for="input-city">Cidade: </label>
+        <input class='form-control' type="text" maxlength='28' required>
+      </div>
+
+        <!-- Seletor de estados -->
+      <div class="mb-3">        
+        <label class="form-label" for="">Estado: </label>
+        <select class="form-select" name="states" id="select-state" required>
+          <option value="" checked>Escolha um estado</option>
+        </select>
+      </div>
+
+      <!-- Tipo de moradia -->
+      <div class="mb-3">
+        <label class="form-label" for="">Tipo de moradia: </label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="home" id="house" value="casa">
+          <label class="form-check-label" for="house">Casa</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="home" id="apt" value="apt">
+          <label class="form-check-label" for="apt">Apartamento</label>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Experiência profissional</legend>
+      <div class="mb-3">
+        <label class="form-label" for="resume">Resumo do curriculo: </label>
+        <textarea class='form-control' name="" id="resume" rows="5" max length='1000' required></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label" for="input-office">Cargo: </label>
+        <input class='form-control' type="text" id="input-office" maxlength="40" required>
+      </div>
+      <!-- Descrição do cargo -->
+      <div class="mb-3">
+        <label class="form-label" for="input-description">Descrição do cargo: </label>
+        <input class='form-control' type="text" id="input-description" maxlength="500" required>
+      </div>
+      <!-- data de inicio -->
+      <div class="mb-3">
+        <label class="form-label" for="">Data de inicio: </label>
+        <input type="text" id='calendario'>
+      </div>
+    </fieldset>
+    <button class="btn btn-primary" type="submit" id="enviar">Enviar</button>
+  </form>
+  <div id='data' class="resumo">
+  </div>
+  <br>
+  <button class="btn btn-danger" onclick="reloadPage()">Limpar formulario</button>
+  
+  <script>
+    $(function() {
+        $( "#calendario" ).datepicker({dateFormat: 'dd/mm/yy'});
+    });
+  </script>
+  <script src="script.js"></script>
+  <script src="./path/to/just-validate.min.js"></script>
+</body>
+</html>
