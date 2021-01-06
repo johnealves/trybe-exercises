@@ -1,9 +1,22 @@
+input {
+  margin-bottom: 10px;
+}
+body {
+  width: 550px
+}
 fieldset {
+  margin-bottom: 5px;
+}
+
+.resumo {
   border: 1px solid black;
-  margin: 1rem;
-  padding: 10px;
+  display: none;
+}
+
+.layout-resume {
+  margin-left: 10px;
 }
 
 button {
-  margin-left: 1rem;
+  margin: 5px;
 }

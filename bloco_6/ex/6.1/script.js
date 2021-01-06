@@ -30,11 +30,30 @@
 
 const estado = ['Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal', 'Espírito Santo', 'Goías', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraíma', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins'];
 
-const estadoSel = document.getElementById('estado-form');
-
-for (let index = 0; index < estado.length; index += 1) {
-  const est = document.createElement('option')
-  est.innerHTML = estado[index];
-  estadoSel.appendChild(est)
+const selectState = document.getElementById('select-state');
+function optionStates () {
+  for (let index = 0; index < estado.length; index += 1) {
+    const opt = document.createElement('option');
+    opt.innerHTML = estado[index];
+    opt.value = estado[index]
+    selectState.appendChild(opt);
+  }
 }
+optionStates();
 
+const result = document.getElementById('data')
+
+
+document.getElementById('enviar').addEventListener('click', function (event) {
+  const inputName = document.getElementById('name').value;
+  event.preventDefault();
+  result.style.display = 'block';
+  const textName = document.createElement('p');
+  textName.innerHTML = `Nome: ${inputName}`;
+  textName.className = 'layout-resume';
+  result.appendChild(textName);
+});
+
+function reloadPage () {
+  window.location.reload()
+}

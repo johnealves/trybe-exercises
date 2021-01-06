@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="section">
+    <h1 class="title has-text-centered">Conferencia da T9</h1>
+    <p class="subtitle has-text-centered"><em>Quer palestrar na melhor conferencia do mundo? Preencha o formulario</em></p>
+  </header>
+  <hr>
+  <div class="section">
+    <form action="" method="GET">
+
+        <div class="control">
+          <div class="field">
+            <!-- Nome -->
+            <label class='label' for="">Nome</label>
+            <input class='input' type="text" id="full-name">
+          </div>
+
+          <!-- Tipo de palestra -->
+          <div class="field">
+            <p class="label">Tipo da palestra</p>
+            <label class="radio" for="palco">
+              <input type="radio" name="talk-type" id="palco">
+              Palco principal
+            </label>
+
+            <label class="radio" for="workshop">
+                <input type="radio" name="talk-type" id="workshop">
+                Workshop
+            </label>
+          </div>
+
+          <!-- Camisa -->
+          <div class="field">
+            <label class="label" for="">Tamanho da camisa</label>
+            <div class="select is-rounded">
+              <select name="" id="">
+                <option value="p">Pequeno</option>
+                <option value="m">Media</option>
+                <option value="g">Grande</option>
+                <option value="xg">Extra grande</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Descrição da palestra -->
+          <div class="field">
+            <label class="label" for="">Descrição da paletra</label>
+            <textarea class='textarea' name="" id="" cols="30" rows="3" placeholder="descreva sua palestra"></textarea>
+          </div>
+
+          <!-- Disponibilidade -->
+          <div class="field">
+            <label class="checkbox" for="availbility">
+              <input type="checkbox" name="" id="availbility">
+              Estou disponivel para esta data
+            </label>
+          </div>
+          <div class="field">
+            <button class="button is-success" type="submit">Enviar</button>
+            <button class="button is-danger" type="reset">Reset</button>
+          </div>
+        </div>
+    </form>
+  </div>
+</body>
+</html>
