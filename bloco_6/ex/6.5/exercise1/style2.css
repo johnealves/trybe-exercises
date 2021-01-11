@@ -1,0 +1,17 @@
+.picture {
+
+}
+
+.picture-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+figure {
+  align-self: center;
+  margin: 20px;
+  width: 40%;
+}

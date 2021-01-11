@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  padding: 25px 0;
+  position: fixed;
+  justify-content: space-around;
+  width: 100%;
+}
+
+header a {
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+header a {
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a:visited, a:hover, a:active {
+  color: inherit
+}
+
+nav {
+  display: flex;
+}
+
+.hero {
+  background-image: url('/0004_HotelCosteiro_fotoHome1.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
