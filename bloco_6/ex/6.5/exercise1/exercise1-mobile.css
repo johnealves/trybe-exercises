@@ -1,26 +1,14 @@
-/* Faça o tamanho da fonte ser maior;
-Faça o tamanho da fonte dos elementos h1 ser menor;
-Aumente o espaçamento entre as figuras;
-Adicione um pouco de margin na página. */
-
 body {
   font-size: 20px;
-  margin: 1rem;
   text-align: justify;
+  margin: 1rem;
 }
+
 h1 {
+  font-size: 30px;
   text-align: center;
-  font-size: 35px;
-}
-h2 {
-
-}
-
-img {
-    max-width: 100%;
 }
 
 figure {
-    margin: 0;
-    margin-bottom: 10px;  
+  margin-bottom: 25px;
 }
