@@ -6,8 +6,8 @@ class Pokedex extends Component {
   render() {
 
     return (
-      this.props.pokemons.map((poke) => (
-        <Pokemon pokemons={poke}/>
+      this.props.pokemons.map((poke, i) => (
+        <Pokemon pokemons={poke} key={i}/>
       ))
     )
   }

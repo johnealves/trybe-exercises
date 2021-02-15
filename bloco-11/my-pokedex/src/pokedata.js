@@ -7,7 +7,7 @@ const pokemons = [
       value: 6.9,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/7/76/Spr_5b_001.png",
+    image: "https://archives.bulbagarden.net/media/upload/7/76/Spr_5b_001.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
   },
   {
@@ -18,7 +18,7 @@ const pokemons = [
       value: 13.0,
       measurementUnit: "kg"
     },
-    image: 'https:\/\/cdn.bulbagarden.net/upload/e/e1/Spr_5b_002.png', 
+    image: 'https://archives.bulbagarden.net/media/upload/e/e1/Spr_5b_002.png',
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
   },
   {
@@ -29,7 +29,7 @@ const pokemons = [
       value: 100,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/68/Spr_5b_003_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/68/Spr_5b_003_m.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
   },
   {
@@ -51,7 +51,7 @@ const pokemons = [
       value: 19,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/09/Spr_5b_005.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/09/Spr_5b_005.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
   },
   {
@@ -62,7 +62,7 @@ const pokemons = [
       value: 90.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/e/e1/Spr_5b_006.png",
+    image: "https://archives.bulbagarden.net/media/upload/e/e1/Spr_5b_006.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
   },
   {
@@ -73,7 +73,7 @@ const pokemons = [
       value: 9,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/5/59/Spr_5b_007.png",
+    image: "https://archives.bulbagarden.net/media/upload/5/59/Spr_5b_007.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
   },
   {
@@ -84,7 +84,7 @@ const pokemons = [
       value: 22.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/0b/Spr_5b_008.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/0b/Spr_5b_008.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
   },
   {
@@ -95,7 +95,7 @@ const pokemons = [
       value: 85.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/3d/Spr_5b_009.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/3d/Spr_5b_009.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
   },
   {
@@ -117,7 +117,7 @@ const pokemons = [
         value: 9.9,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/2b/Spr_5b_011.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/2b/Spr_5b_011.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -128,7 +128,7 @@ const pokemons = [
         value: 32.0,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/7/7c/Spr_5b_012_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/7/7c/Spr_5b_012_m.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -139,7 +139,7 @@ const pokemons = [
         value: 3.2,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/96/Spr_5b_013.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/96/Spr_5b_013.png",
   },
   {
     id: 14,
@@ -149,7 +149,7 @@ const pokemons = [
         value: 10,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/0e/Spr_5b_014.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/0e/Spr_5b_014.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -160,7 +160,7 @@ const pokemons = [
         value: 29.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/a/a5/Spr_5b_015.png",
+    image: "https://archives.bulbagarden.net/media/upload/a/a5/Spr_5b_015.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -171,7 +171,7 @@ const pokemons = [
         value: 1.8,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/08/Spr_5b_016.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/08/Spr_5b_016.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -182,7 +182,7 @@ const pokemons = [
         value: 30,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/a/aa/Spr_5b2_017.png",
+    image: "https://archives.bulbagarden.net/media/upload/a/aa/Spr_5b2_017.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -193,7 +193,7 @@ const pokemons = [
         value: 39.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/8/8a/Spr_5b_018.png",
+    image: "https://archives.bulbagarden.net/media/upload/8/8a/Spr_5b_018.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -204,7 +204,7 @@ const pokemons = [
         value: 3.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/d5/Spr_5b_019_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/d5/Spr_5b_019_m.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -215,7 +215,7 @@ const pokemons = [
         value: 18.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/4/4e/Spr_5b_020_m_s.png",
+    image: "https://archives.bulbagarden.net/media/upload/4/4e/Spr_5b_020_m_s.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -226,7 +226,7 @@ const pokemons = [
         value: 2.0,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/05/Spr_5b_021.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/05/Spr_5b_021.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -237,7 +237,7 @@ const pokemons = [
         value: 38.0,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/29/Spr_5b_022.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/29/Spr_5b_022.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -248,7 +248,7 @@ const pokemons = [
         value: 6.9,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/18/Spr_5b_023.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/18/Spr_5b_023.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -259,7 +259,7 @@ const pokemons = [
         value: 65,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/00/Spr_5b_024.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/00/Spr_5b_024.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
   },
   {
@@ -281,7 +281,7 @@ const pokemons = [
         value: 12,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/f/f9/Spr_5b_026_f_s.png",
+    image: "https://archives.bulbagarden.net/media/upload/f/f9/Spr_5b_026_f_s.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
   },
   {
@@ -292,7 +292,7 @@ const pokemons = [
         value: 30,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/17/Spr_5b_027.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/17/Spr_5b_027.png",
     moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
   },
   {
@@ -303,7 +303,7 @@ const pokemons = [
         value: 29.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/b/b8/Spr_5b_028.png",
+    image: "https://archives.bulbagarden.net/media/upload/b/b8/Spr_5b_028.png",
   },
   {
     id: 29,
@@ -313,7 +313,7 @@ const pokemons = [
         value: 7,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/a/a2/Spr_5b_029.png",
+    image: "https://archives.bulbagarden.net/media/upload/a/a2/Spr_5b_029.png",
   },
   {
     id: 30,
@@ -323,7 +323,7 @@ const pokemons = [
         value: 20,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/a/a8/Spr_5b_030.png",
+    image: "https://archives.bulbagarden.net/media/upload/a/a8/Spr_5b_030.png",
   },
   {
     id: 31,
@@ -333,7 +333,7 @@ const pokemons = [
         value: 60,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/4/43/Spr_5b_031.png",
+    image: "https://archives.bulbagarden.net/media/upload/4/43/Spr_5b_031.png",
   },
   {
     id: 32,
@@ -343,7 +343,7 @@ const pokemons = [
         value: 9,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/5/5d/Spr_5b_032.png",
+    image: "https://archives.bulbagarden.net/media/upload/5/5d/Spr_5b_032.png",
   },
   {
     id: 33,
@@ -353,7 +353,7 @@ const pokemons = [
         value: 19.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/16/Spr_5b_033.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/16/Spr_5b_033.png",
   },
   {
     id: 34,
@@ -363,7 +363,7 @@ const pokemons = [
         value: 62.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/4/46/Spr_5b_034.png",
+    image: "https://archives.bulbagarden.net/media/upload/4/46/Spr_5b_034.png",
   },
   {
     id: 35,
@@ -373,7 +373,7 @@ const pokemons = [
         value: 62.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/7/76/Spr_5b_035.png",
+    image: "https://archives.bulbagarden.net/media/upload/7/76/Spr_5b_035.png",
   },
   {
     id: 36,
@@ -383,7 +383,7 @@ const pokemons = [
         value: 40,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/d4/Spr_5b_036.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/d4/Spr_5b_036.png",
   },
   {
     id: 37,
@@ -393,7 +393,7 @@ const pokemons = [
         value: 9.9,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/e/ec/Spr_5b_037.png",
+    image: "https://archives.bulbagarden.net/media/upload/e/ec/Spr_5b_037.png",
   },
   {
     id: 38,
@@ -403,7 +403,7 @@ const pokemons = [
         value: 19.9,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/6f/Spr_5b_038.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/6f/Spr_5b_038.png",
   },
   {
     id: 39,
@@ -413,7 +413,7 @@ const pokemons = [
         value: 5.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/b/b1/Spr_5b_039_s.png",
+    image: "https://archives.bulbagarden.net/media/upload/b/b1/Spr_5b_039_s.png",
   },
   {
     id: 40,
@@ -423,7 +423,7 @@ const pokemons = [
         value: 12,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/9c/Spr_5b_040.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/9c/Spr_5b_040.png",
   },
   {
     id: 41,
@@ -433,7 +433,7 @@ const pokemons = [
         value: 7.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/01/Spr_5b_041_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/01/Spr_5b_041_m.png",
   },
   {
     id: 42,
@@ -443,7 +443,7 @@ const pokemons = [
         value: 55,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/5/5e/Spr_5b_042_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/5/5e/Spr_5b_042_m.png",
   },
   {
     id: 43,
@@ -453,7 +453,7 @@ const pokemons = [
         value: 5.4,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/1a/Spr_5b_043.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/1a/Spr_5b_043.png",
   },
   {
     id: 44,
@@ -463,7 +463,7 @@ const pokemons = [
         value: 8.6,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/96/Spr_5b_044_f.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/96/Spr_5b_044_f.png",
   },
   {
     id: 45,
@@ -473,7 +473,7 @@ const pokemons = [
         value: 18.6,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/31/Spr_5b_045_f.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/31/Spr_5b_045_f.png",
   },
   {
     id: 46,
@@ -483,7 +483,7 @@ const pokemons = [
         value: 5.4,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/c/c6/Spr_5b2_046.png",
+    image: "https://archives.bulbagarden.net/media/upload/c/c6/Spr_5b2_046.png",
   },
   {
     id: 47,
@@ -493,7 +493,7 @@ const pokemons = [
         value: 29.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/90/Spr_5b_047.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/90/Spr_5b_047.png",
   },
   {
     id: 48,
@@ -503,7 +503,7 @@ const pokemons = [
         value: 30,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/39/Spr_5b_048.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/39/Spr_5b_048.png",
   },
   {
     id: 49,
@@ -513,7 +513,7 @@ const pokemons = [
         value: 12.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/33/Spr_5b_049.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/33/Spr_5b_049.png",
   },
   {
     id: 50,
@@ -523,7 +523,7 @@ const pokemons = [
         value: 0.8,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/7/7b/Spr_5b_050.png",
+    image: "https://archives.bulbagarden.net/media/upload/7/7b/Spr_5b_050.png",
   },
   {
     id: 51,
@@ -533,7 +533,7 @@ const pokemons = [
         value: 33.3,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/66/Spr_5b_051.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/66/Spr_5b_051.png",
   },
   {
     id: 52,
@@ -543,7 +543,7 @@ const pokemons = [
         value: 4.2,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/93/Spr_5b_052.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/93/Spr_5b_052.png",
   },
   {
     id: 53,
@@ -553,7 +553,7 @@ const pokemons = [
         value: 32,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/9b/Spr_5b2_053.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/9b/Spr_5b2_053.png",
   },
   {
     id: 54,
@@ -563,7 +563,7 @@ const pokemons = [
         value: 19.6,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/4/46/Spr_5b2_054.png",
+    image: "https://archives.bulbagarden.net/media/upload/4/46/Spr_5b2_054.png",
   },
   {
     id: 55,
@@ -573,7 +573,7 @@ const pokemons = [
         value: 76.6,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/d2/Spr_5b_055_s.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/d2/Spr_5b_055_s.png",
   },
   {
     id: 56,
@@ -583,7 +583,7 @@ const pokemons = [
         value: 28,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/9f/Spr_5b_056.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/9f/Spr_5b_056.png",
   },
   {
     id: 57,
@@ -593,7 +593,7 @@ const pokemons = [
         value: 32,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/07/Spr_5b2_057.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/07/Spr_5b2_057.png",
   },
   {
     id: 58,
@@ -603,7 +603,7 @@ const pokemons = [
         value: 155,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/3f/Spr_5b_058.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/3f/Spr_5b_058.png",
   },
   {
     id: 59,
@@ -613,7 +613,7 @@ const pokemons = [
         value: 19,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/c/c5/Spr_5b2_059.png",
+    image: "https://archives.bulbagarden.net/media/upload/c/c5/Spr_5b2_059.png",
   },
   {
     id: 60,
@@ -623,7 +623,7 @@ const pokemons = [
         value: 12.4,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/94/Spr_5b_060.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/94/Spr_5b_060.png",
   },
   {
     id: 61,
@@ -633,7 +633,7 @@ const pokemons = [
         value: 20,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/62/Spr_5b_061.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/62/Spr_5b_061.png",
   },
   {
     id: 62,
@@ -643,7 +643,7 @@ const pokemons = [
         value: 54,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/5/57/Spr_5b_062.png",
+    image: "https://archives.bulbagarden.net/media/upload/5/57/Spr_5b_062.png",
   },
   {
     id: 63,
@@ -653,7 +653,7 @@ const pokemons = [
         value: 19.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/14/Spr_5b_063.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/14/Spr_5b_063.png",
   },
   {
     id: 64,
@@ -663,7 +663,7 @@ const pokemons = [
         value: 56.5,
         measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/5/54/Spr_5b_064_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/5/54/Spr_5b_064_m.png",
   },
   {
     id: 65,
@@ -683,7 +683,7 @@ const pokemons = [
       value: 19.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/e/ef/Spr_5b_066.png",
+    image: "https://archives.bulbagarden.net/media/upload/e/ef/Spr_5b_066.png",
   },
   {
     id: 67,
@@ -693,7 +693,7 @@ const pokemons = [
       value: 70.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/7/7f/Spr_5b_067.png",
+    image: "https://archives.bulbagarden.net/media/upload/7/7f/Spr_5b_067.png",
   },
   {
     id: 68,
@@ -703,7 +703,7 @@ const pokemons = [
       value: 130,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/4/4c/Spr_5b_068.png",
+    image: "https://archives.bulbagarden.net/media/upload/4/4c/Spr_5b_068.png",
   },
   {
     id: 69,
@@ -713,7 +713,7 @@ const pokemons = [
       value: 4,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/03/Spr_5b_069.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/03/Spr_5b_069.png",
   },
   {
     id: 70,
@@ -723,7 +723,7 @@ const pokemons = [
       value: 6.4,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/e/ed/Spr_5b2_070.png",
+    image: "https://archives.bulbagarden.net/media/upload/e/ed/Spr_5b2_070.png",
   },
   {
     id: 71,
@@ -733,7 +733,7 @@ const pokemons = [
       value: 15.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/5/55/Spr_5b_071.png",
+    image: "https://archives.bulbagarden.net/media/upload/5/55/Spr_5b_071.png",
   },
   {
     id: 72,
@@ -743,7 +743,7 @@ const pokemons = [
       value: 45.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/0c/Spr_5b_072.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/0c/Spr_5b_072.png",
   },
   {
     id: 73,
@@ -753,7 +753,7 @@ const pokemons = [
       value: 55,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/98/Spr_5b_073.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/98/Spr_5b_073.png",
   },
   {
     id: 74,
@@ -763,7 +763,7 @@ const pokemons = [
       value: 20,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/90/Spr_5b_074.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/90/Spr_5b_074.png",
   },
   {
     id: 75,
@@ -773,7 +773,7 @@ const pokemons = [
       value: 105,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/3a/Spr_5b_075.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/3a/Spr_5b_075.png",
   },
   {
     id: 76,
@@ -783,7 +783,7 @@ const pokemons = [
       value: 316,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/31/Spr_5b_076.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/31/Spr_5b_076.png",
   },
   {
     id: 77,
@@ -793,7 +793,7 @@ const pokemons = [
       value: 30,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/b/bf/Spr_5b_077.png",
+    image: "https://archives.bulbagarden.net/media/upload/b/bf/Spr_5b_077.png",
   },
   {
     id: 78,
@@ -814,7 +814,7 @@ const pokemons = [
       value: 36,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/1f/Spr_5b_079.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/1f/Spr_5b_079.png",
   },
   {
     id: 80,
@@ -824,7 +824,7 @@ const pokemons = [
       value: 78.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/e/e1/Spr_5b2_080.png",
+    image: "https://archives.bulbagarden.net/media/upload/e/e1/Spr_5b2_080.png",
   },
   {
     id: 81,
@@ -834,7 +834,7 @@ const pokemons = [
       value: 6,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/b/b2/Spr_5b_081.png",
+    image: "https://archives.bulbagarden.net/media/upload/b/b2/Spr_5b_081.png",
   },
   {
     id: 82,
@@ -844,7 +844,7 @@ const pokemons = [
       value: 60,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/4/45/Spr_5b_082.png",
+    image: "https://archives.bulbagarden.net/media/upload/4/45/Spr_5b_082.png",
   },
   {
     id: 83,
@@ -854,7 +854,7 @@ const pokemons = [
       value: 60,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/a/aa/Spr_5b_083.png",
+    image: "https://archives.bulbagarden.net/media/upload/a/aa/Spr_5b_083.png",
   },
   {
     id: 84,
@@ -864,7 +864,7 @@ const pokemons = [
       value: 39.2,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/2b/Spr_5b_084_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/2b/Spr_5b_084_m.png",
   },
   {
     id: 85,
@@ -874,7 +874,7 @@ const pokemons = [
       value: 85.2,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/19/Spr_5b_085_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/19/Spr_5b_085_m.png",
   },
   {
     id: 86,
@@ -884,7 +884,7 @@ const pokemons = [
       value: 90,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/27/Spr_5b_086.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/27/Spr_5b_086.png",
   },
   {
     id: 87,
@@ -894,7 +894,7 @@ const pokemons = [
       value: 120.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/a/ad/Spr_5b_087.png",
+    image: "https://archives.bulbagarden.net/media/upload/a/ad/Spr_5b_087.png",
   },
   {
     id: 88,
@@ -904,7 +904,7 @@ const pokemons = [
       value: 30.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/6e/Spr_5b_088.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/6e/Spr_5b_088.png",
   },
   {
     id: 89,
@@ -914,7 +914,7 @@ const pokemons = [
       value: 30.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/8/80/Spr_5b_089.png",
+    image: "https://archives.bulbagarden.net/media/upload/8/80/Spr_5b_089.png",
   },
   {
     id: 90,
@@ -924,7 +924,7 @@ const pokemons = [
       value: 4.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/66/Spr_5b_090.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/66/Spr_5b_090.png",
   },
   {
     id: 91,
@@ -934,7 +934,7 @@ const pokemons = [
       value: 132.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/f/f1/Spr_5b_091.png",
+    image: "https://archives.bulbagarden.net/media/upload/f/f1/Spr_5b_091.png",
   },
   {
     id: 92,
@@ -944,7 +944,7 @@ const pokemons = [
       value: 0.1,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/f/f3/Spr_5b_092.png",
+    image: "https://archives.bulbagarden.net/media/upload/f/f3/Spr_5b_092.png",
   },
   {
     id: 93,
@@ -954,7 +954,7 @@ const pokemons = [
       value: 0.1,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/12/Spr_5b2_093_s.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/12/Spr_5b2_093_s.png",
   },
   {
     id: 94,
@@ -964,7 +964,7 @@ const pokemons = [
       value: 0.1,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/21/Spr_5b_094.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/21/Spr_5b_094.png",
   },
   {
     id: 95,
@@ -974,7 +974,7 @@ const pokemons = [
       value: 210.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/29/Spr_5b_095.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/29/Spr_5b_095.png",
   },
   {
     id: 96,
@@ -984,7 +984,7 @@ const pokemons = [
       value: 32.4,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/b/b2/Spr_5b_096.png",
+    image: "https://archives.bulbagarden.net/media/upload/b/b2/Spr_5b_096.png",
   },
   {
     id: 97,
@@ -994,7 +994,7 @@ const pokemons = [
       value: 75.6,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/c/cb/Spr_5b_097_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/c/cb/Spr_5b_097_m.png",
   },
   {
     id: 98,
@@ -1004,7 +1004,7 @@ const pokemons = [
       value: 6.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/69/Spr_5b_098.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/69/Spr_5b_098.png",
   },
   {
     id: 99,
@@ -1014,7 +1014,7 @@ const pokemons = [
       value: 60,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/e/e7/Spr_5b_099.png",
+    image: "https://archives.bulbagarden.net/media/upload/e/e7/Spr_5b_099.png",
   },
   {
     id: 100,
@@ -1024,7 +1024,7 @@ const pokemons = [
       value: 10.4,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/8/8a/Spr_5b_100.png",
+    image: "https://archives.bulbagarden.net/media/upload/8/8a/Spr_5b_100.png",
   },
   {
     id: 101,
@@ -1034,7 +1034,7 @@ const pokemons = [
       value: 66.6,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/5/53/Spr_5b_101.png",
+    image: "https://archives.bulbagarden.net/media/upload/5/53/Spr_5b_101.png",
   },
   {
     id: 102,
@@ -1044,7 +1044,7 @@ const pokemons = [
       value: 2.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/8/8f/Spr_5b_102.png",
+    image: "https://archives.bulbagarden.net/media/upload/8/8f/Spr_5b_102.png",
   },
   {
     id: 103,
@@ -1054,7 +1054,7 @@ const pokemons = [
       value: 60,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/19/Spr_5b_103.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/19/Spr_5b_103.png",
   },
   {
     id: 104,
@@ -1064,7 +1064,7 @@ const pokemons = [
       value: 6.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/a/a0/Spr_5b_104.png",
+    image: "https://archives.bulbagarden.net/media/upload/a/a0/Spr_5b_104.png",
   },
   {
     id: 105,
@@ -1074,7 +1074,7 @@ const pokemons = [
       value: 45.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/f/f4/Spr_5b_105.png",
+    image: "https://archives.bulbagarden.net/media/upload/f/f4/Spr_5b_105.png",
   },
   {
     id: 106,
@@ -1084,7 +1084,7 @@ const pokemons = [
       value: 49.8,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/99/Spr_5b_106.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/99/Spr_5b_106.png",
   },
   {
     id: 107,
@@ -1094,7 +1094,7 @@ const pokemons = [
       value: 50.2,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/4/45/Spr_5b_107.png",
+    image: "https://archives.bulbagarden.net/media/upload/4/45/Spr_5b_107.png",
   },
   {
     id: 108,
@@ -1104,7 +1104,7 @@ const pokemons = [
       value: 65.6,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/22/Spr_5b_108.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/22/Spr_5b_108.png",
   },
   {
     id: 109,
@@ -1114,7 +1114,7 @@ const pokemons = [
       value: 1.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/b/ba/Spr_5b_109.png",
+    image: "https://archives.bulbagarden.net/media/upload/b/ba/Spr_5b_109.png",
   },
   {
     id: 110,
@@ -1124,7 +1124,7 @@ const pokemons = [
       value: 9.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/e/ec/Spr_5b_110.png",
+    image: "https://archives.bulbagarden.net/media/upload/e/ec/Spr_5b_110.png",
   },
   {
     id: 111,
@@ -1134,7 +1134,7 @@ const pokemons = [
       value: 115.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/61/Spr_5b_111_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/61/Spr_5b_111_m.png",
   },
   {
     id: 112,
@@ -1144,7 +1144,7 @@ const pokemons = [
       value: 120,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/d4/Spr_5b_112_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/d4/Spr_5b_112_m.png",
   },
   {
     id: 113,
@@ -1154,7 +1154,7 @@ const pokemons = [
       value: 34.6,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/de/Spr_5b_113.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/de/Spr_5b_113.png",
   },
   {
     id: 114,
@@ -1164,7 +1164,7 @@ const pokemons = [
       value: 35.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/a/aa/Spr_5b_114.png",
+    image: "https://archives.bulbagarden.net/media/upload/a/aa/Spr_5b_114.png",
   },
   {
     id: 115,
@@ -1174,7 +1174,7 @@ const pokemons = [
       value: 80.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/d5/Spr_5b_115.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/d5/Spr_5b_115.png",
   },
   {
     id: 116,
@@ -1184,7 +1184,7 @@ const pokemons = [
       value: 8.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/2d/Spr_5b_116.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/2d/Spr_5b_116.png",
   },
   {
     id: 117,
@@ -1194,7 +1194,7 @@ const pokemons = [
       value: 25.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/df/Spr_b_5b_117.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/df/Spr_b_5b_117.png",
   },
   {
     id: 118,
@@ -1204,7 +1204,7 @@ const pokemons = [
       value: 15.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/65/Spr_5b2_118_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/65/Spr_5b2_118_m.png",
   },
   {
     id: 119,
@@ -1214,7 +1214,7 @@ const pokemons = [
       value: 39.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/f/f0/Spr_5b_119_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/f/f0/Spr_5b_119_m.png",
   },
   {
     id: 120,
@@ -1224,7 +1224,7 @@ const pokemons = [
       value: 34.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/db/Spr_5b_120.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/db/Spr_5b_120.png",
   },
   {
     id: 121,
@@ -1234,7 +1234,7 @@ const pokemons = [
       value: 80.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/8/85/Spr_5b_121.png",
+    image: "https://archives.bulbagarden.net/media/upload/8/85/Spr_5b_121.png",
   },
   {
     id: 122,
@@ -1244,7 +1244,7 @@ const pokemons = [
       value: 54.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/9c/Spr_5b_122.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/9c/Spr_5b_122.png",
   },
   {
     id: 123,
@@ -1254,7 +1254,7 @@ const pokemons = [
       value: 56.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/2c/Spr_5b_123_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/2c/Spr_5b_123_m.png",
   },
   {
     id: 124,
@@ -1264,7 +1264,7 @@ const pokemons = [
       value: 40.6,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/0e/Spr_5b_124.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/0e/Spr_5b_124.png",
   },
   {
     id: 125,
@@ -1274,7 +1274,7 @@ const pokemons = [
       value: 30.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/7/79/Spr_5b_125.png",
+    image: "https://archives.bulbagarden.net/media/upload/7/79/Spr_5b_125.png",
   },
   {
     id: 126,
@@ -1284,7 +1284,7 @@ const pokemons = [
       value: 44.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/a/a9/Spr_5b_126.png",
+    image: "https://archives.bulbagarden.net/media/upload/a/a9/Spr_5b_126.png",
   },
   {
     id: 127,
@@ -1294,7 +1294,7 @@ const pokemons = [
       value: 55.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/b/b1/Spr_5b_127.png",
+    image: "https://archives.bulbagarden.net/media/upload/b/b1/Spr_5b_127.png",
   },
   {
     id: 128,
@@ -1304,7 +1304,7 @@ const pokemons = [
       value: 88.4,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/8/80/Spr_5b_128.png",
+    image: "https://archives.bulbagarden.net/media/upload/8/80/Spr_5b_128.png",
   },
   {
     id: 129,
@@ -1314,7 +1314,7 @@ const pokemons = [
       value: 10.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/2/24/Spr_5b_129_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/2/24/Spr_5b_129_m.png",
   },
   {
     id: 130,
@@ -1324,7 +1324,7 @@ const pokemons = [
       value: 235.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/e/e3/Spr_5b_130_m.png",
+    image: "https://archives.bulbagarden.net/media/upload/e/e3/Spr_5b_130_m.png",
   },
   {
     id: 131,
@@ -1334,7 +1334,7 @@ const pokemons = [
       value: 220,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/6/62/Spr_5b_131.png",
+    image: "https://archives.bulbagarden.net/media/upload/6/62/Spr_5b_131.png",
   },
   {
     id: 132,
@@ -1344,7 +1344,7 @@ const pokemons = [
       value: 4.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/5/5f/Spr_5b_132.png",
+    image: "https://archives.bulbagarden.net/media/upload/5/5f/Spr_5b_132.png",
   },
   {
     id: 133,
@@ -1354,7 +1354,7 @@ const pokemons = [
       value: 6.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/d1/Spr_5b2_133.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/d1/Spr_5b2_133.png",
   },
   {
     id: 134,
@@ -1364,7 +1364,7 @@ const pokemons = [
       value: 29.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/3b/Spr_5b_134.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/3b/Spr_5b_134.png",
   },
   {
     id: 135,
@@ -1374,7 +1374,7 @@ const pokemons = [
       value: 24.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/c/c1/Spr_5b_135.png",
+    image: "https://archives.bulbagarden.net/media/upload/c/c1/Spr_5b_135.png",
   },
   {
     id: 136,
@@ -1384,7 +1384,7 @@ const pokemons = [
       value: 25,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/3b/Spr_5b_136.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/3b/Spr_5b_136.png",
   },
   {
     id: 137,
@@ -1394,7 +1394,7 @@ const pokemons = [
       value: 36.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/07/Spr_5b_137.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/07/Spr_5b_137.png",
   },
   {
     id: 138,
@@ -1404,7 +1404,7 @@ const pokemons = [
       value: 7.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/1/15/Spr_5b_138.png",
+    image: "https://archives.bulbagarden.net/media/upload/1/15/Spr_5b_138.png",
   },
   {
     id: 139,
@@ -1414,7 +1414,7 @@ const pokemons = [
       value: 35.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/f/fc/Spr_5b_139.png",
+    image: "https://archives.bulbagarden.net/media/upload/f/fc/Spr_5b_139.png",
   },
   {
     id: 140,
@@ -1424,7 +1424,7 @@ const pokemons = [
       value: 11.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/d/db/Spr_5b_140.png",
+    image: "https://archives.bulbagarden.net/media/upload/d/db/Spr_5b_140.png",
   },
   {
     id: 141,
@@ -1434,7 +1434,7 @@ const pokemons = [
       value: 40.5,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/c/cf/Spr_5b_141.png",
+    image: "https://archives.bulbagarden.net/media/upload/c/cf/Spr_5b_141.png",
   },
   {
     id: 142,
@@ -1444,7 +1444,7 @@ const pokemons = [
       value: 59.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/0/00/Spr_5b_142.png",
+    image: "https://archives.bulbagarden.net/media/upload/0/00/Spr_5b_142.png",
   },
   {
     id: 143,
@@ -1465,7 +1465,7 @@ const pokemons = [
       value: 55.4,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/7/7b/Spr_5b_144.png",
+    image: "https://archives.bulbagarden.net/media/upload/7/7b/Spr_5b_144.png",
   },
   {
     id: 145,
@@ -1475,7 +1475,7 @@ const pokemons = [
       value: 52.6,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/8/8a/Spr_5b_145.png",
+    image: "https://archives.bulbagarden.net/media/upload/8/8a/Spr_5b_145.png",
   },
   {
     id: 146,
@@ -1485,7 +1485,7 @@ const pokemons = [
       value: 60,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/3f/Spr_4h_146.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/3f/Spr_4h_146.png",
   },
   {
     id: 147,
@@ -1495,7 +1495,7 @@ const pokemons = [
       value: 3.3,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/3/36/Spr_5b_147.png",
+    image: "https://archives.bulbagarden.net/media/upload/3/36/Spr_5b_147.png",
   },
   {
     id: 148,
@@ -1516,7 +1516,7 @@ const pokemons = [
       value: 210.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/9/96/Spr_5b_149.png",
+    image: "https://archives.bulbagarden.net/media/upload/9/96/Spr_5b_149.png",
   },
   {
     id: 150,
@@ -1526,7 +1526,7 @@ const pokemons = [
       value: 122.0,
       measurementUnit: "kg"
     },
-    image: "https:\/\/cdn.bulbagarden.net/upload/7/73/Spr_5b_150.png",
+    image: "https://archives.bulbagarden.net/media/upload/7/73/Spr_5b_150.png",
   },
   {
     id: 151,

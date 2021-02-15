@@ -1,8 +1,7 @@
 body {
   background-color: rgb(165, 241, 241);
   margin: auto;
-  box-sizing: border-box;
-  text-align: center;
+  max-width: 1150px;
 }
 
 header {
@@ -10,24 +9,12 @@ header {
   justify-content: center;
 }
 
-input {
-  font-size: 20px;
-  padding: 10px;
-  margin: 10px;
-}
-
-.btn-next {
-  padding: 10px;
-}
-
 .pokeSec {
   background-color: white;
   display: flex;
   flex-wrap: wrap;
+  margin: 1rem;
   justify-content: center;
-  margin: auto;
-  padding: 0;
-  max-width: 1150px;
 }
 
 .App-logo {
