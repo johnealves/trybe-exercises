@@ -1,0 +1,448 @@
+// O MongoDb possui diversas ferramentas, como, por exemplo, mongo , mongosh , Compass e outras ferramentas de terceiros. Você pode utilizar o que achar melhor para executar as queries , o importante é realizá-las.
+// Exercício 1: Utilizando o estágio $match , escreva uma agregação para retornar somente os clientes do sexo "MASCULINO" .
+
+use('erp')
+db.clientes.aggregate([
+  { $match: { sexo: "MASCULINO" } }
+])
+
+// Exercício 2: Utilizando o estágio $match , escreva uma agregação para retornar somente os clientes do sexo "FEMININO" e com data de nascimento entre os anos de 1995 e 2005 .
+
+use('erp');
+db.clientes.aggregate([
+  { $match: {
+    sexo: "FEMININO",
+    dataNascimento: {
+      $gte: ISODate('1995-01-01'),
+      $lte: ISODate('2005-12-31')
+    },
+  } }
+])
+
+// Exercício 3: Utilizando o estágio $match , escreva uma agregação para retornar somente os clientes do sexo "FEMININO" e com data de nascimento entre os anos de 1995 e 2005 , limitando a quantidade de documentos retornados em 5 .
+
+use('erp');
+db.clientes.aggregate([
+  {
+    $match: {
+      sexo: "FEMININO",
+      dataNascimento: {
+        $gte: ISODate('1995-01-01'),
+        $lte: ISODate('2005-12-31')
+      }
+    }
+  },
+  { $limit: 5 }
+]);
+
+// Exercício 4: Conte quantos clientes do estado SC existem na coleção. Retorne um documento em que o campo _id contenha a UF e outro campo com o total.
+
+use('erp');
+db.clientes.aggregate([
+  {
+    $match: {
+      "endereco.uf": "SC"
+    }
+  },
+  {
+    $group: {
+      _id: "$endereco.uf",
+      total: { $sum: 1 }
+    }
+  }
+]);
+
+// Exercício 5: Agrupe os clientes por sexo . Retorne o total de clientes de cada sexo no campo total .
+
+use('erp');
+db.clientes.aggregate([
+  {
+    $group: {
+      _id: "$sexo",
+      total: { $sum: 1 }
+    }
+  }
+]);
+
+// Exercício 6: Agrupe os clientes por sexo e uf . Retorne o total de clientes de cada sexo no campo total .
+
+use("erp");
+db.clientes.aggregate([
+  {
+    $group: {
+      _id: ["$sexo", "$endereco.uf" ],
+      total: { $sum: 1 }
+    }
+  }
+]);
+
+// Exercício 7 : Utilizando a mesma agregação do exercício anterior, adicione um estágio de projeção para modificar os documentos de saída, de forma que se pareçam com o documento a seguir (não se importe com a ordem dos campos):
+// Copiar
+// {
+//   "estado": "SP",
+//   "sexo": "MASCULINO",
+//   "total": 100
+// }
+
+use("erp");
+db.clientes.aggregate([
+  {
+    $group: {
+      _id: { sexo: "$sexo", uf: "$endereco.uf" },
+      count: { $sum: 1 }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      estado: "$_id.uf",
+      sexo: "$_id.sexo",
+      total: '$count'
+    }
+  }
+]);
+
+// Exercício 8 : Descubra quais são os 5 clientes que gastaram o maior valor.
+
+use('erp');
+db.clientes.findOne({  });
+
+use('erp');
+db.vendas.find(
+  { clienteId: 398 }
+);
+
+use('erp');
+db.vendas.aggregate([
+  {
+    $group: {
+      _id: "$clienteId",
+      totalCompras: { $sum: "$valorTotal" }
+    }
+  },
+  { $sort: { totalCompras: -1 } },
+  { $limit: 5 },
+  {
+    $lookup: {
+      from: 'clientes',
+      localField: '_id',
+      foreignField: 'clienteId',
+      as: 'clienteInfo'
+    }
+  },
+  { $unwind: '$clienteInfo' },
+    {
+    $project: {
+      nome: "$clienteInfo.nome",
+      totalCompras: "$totalCompras",
+    }
+  }
+]);
+
+// Exercício 9 : Descubra quais são os 10 clientes que gastaram o maior valor no ano de 2019 .
+
+use('erp');
+db.vendas.aggregate([
+  {
+    $match: {
+      dataVenda: {
+        $gte: ISODate('2019-01-01'),
+        $lte: ISODate('2019-12-31')
+      }
+    }
+  },
+  {
+    $group: {
+      _id: '$clienteId',
+      totalCompras: { $sum: "$valorTotal" }
+    }
+  },
+  { $sort: { totalCompras: -1 } },
+  { $limit: 10 },
+  {
+    $lookup: {
+      from: 'clientes',
+      localField: '_id',
+      foreignField: 'clienteId',
+      as: 'clienteInfo'
+    }
+  },
+  { $unwind: "$clienteInfo" },
+  {
+    $project: {
+      nome: "$clienteInfo.nome",
+      totalCompras: "$totalCompras",
+    }
+  }
+]);
+
+// Exercício 10 : Descubra quantos clientes compraram mais de 5 vezes. Retorne um documento que contenha somente o campo clientes com o total de clientes.
+// Dica: O operador $count pode simplificar sua query .
+
+use('erp')
+db.vendas.aggregate([
+  {
+    $group: {
+      _id: "$clienteId",
+      count: { $sum: 1 }
+    }
+  },
+  {
+    $match: {
+      count: { $gt: 5 }
+    }
+  },
+  { $count: "clientes" }
+])
+
+// Exercício 11 : Descubra quantos clientes compraram menos de três vezes entre os meses de Janeiro de 2020 e Março de 2020 .
+
+use('erp');
+db.vendas.aggregate([
+  {
+    $match: {
+      dataVenda: {
+        $gte: ISODate("2020-01-01"),
+        $lte: ISODate("2020-03-31")
+      }
+    }
+  },
+  {
+    $group: {
+      _id: "$clienteId",
+      totalDeCompras: { $sum: 1 }
+    }
+  },
+  {
+    $match: {
+      totalDeCompras: { $lt: 3 }
+    }
+  },
+  { $count: "Clientes" }
+])
+
+// Exercício 12 : Descubra quais as três uf s que mais compraram no ano de 2020 . Retorne os documentos no seguinte formato:
+// Copiar
+// {
+//   "totalVendas": 10,
+//   "uf": "SP"
+// }
+
+use('erp');
+db.vendas.aggregate([
+  {
+    $match: {
+      dataVenda: {
+        $gte: ISODate('2020-01-01'),
+        $lte: ISODate('2020-12-31')
+      }
+    }
+  },
+  {
+    $lookup: {
+      from: "clientes",
+      localField: "clienteId",
+      foreignField: "clienteId",
+      as: "cliente_info"
+    }
+  },
+  { $unwind: "$cliente_info" },
+  {
+    $group: {
+    totalVendas: { $sum: 1 },
+    _id: { uf: "$cliente_info.endereco.uf" },
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      totalVendas: 1,
+      uf: "$_id.uf"
+    }
+  }
+])
+
+// Exercício 13 : Encontre qual foi o total de vendas e a média de vendas de cada uf no ano de 2019 . Ordene os resultados pelo nome da uf . Retorne os documentos no seguinte formato:
+// Copiar
+// {
+//   "_id": "MG",
+//   "mediaVendas": 9407.129225352113,
+//   "totalVendas": 142
+// }
+
+use('erp');
+db.vendas.aggregate([
+  {
+    $match: {
+      dataVenda: {
+        $gte: ISODate('2019-01-01'),
+        $lte: ISODate('2019-12-31')
+      }
+    }
+  },
+  {
+    $lookup: {
+      from: "clientes",
+      localField: "clienteId",
+      foreignField: "clienteId",
+      as: "cliente_info"
+    }
+  },
+  { $unwind: "$cliente_info" },
+  {
+    $group: {
+    _id: "$cliente_info.endereco.uf",
+    totalVendas: { $sum: 1 },
+    mediaVendas: { $avg: "$valorTotal" } 
+    }
+  }
+])
+// parte II
+
+// Exercício 1 : Utilize uma combinação das expressões aritméticas e adicione um campo chamado idade à coleção clientes . Algumas dicas:
+// arredonde para baixo o valor da idade;
+// calcule a idade usando a diferença entre a data corrente e a data de nascimento;
+// 1 dia é igual a 86400000 milissegundos.
+
+use('erp');
+db.clientes.find(
+  {},
+  { "dataNascimento": 1 }
+)
+
+use('erp');
+db.clientes.aggregate([
+  {
+    $addFields: {
+      idade: {
+        $divide: [
+          { $subtract: [new Date(), "$dataNascimento"] },
+          { $multiply: [86400000 * 365] }
+        ]
+      }
+    }
+  },
+  { 
+    $project: {
+      _id: 0,
+      nome: 1,
+      idade: { $ceil: '$idade' }
+    } 
+  }
+])
+
+// Exercício 2 : Utilizando o novo campo idade , conte quantos clientes têm entre 18 e 25 anos.
+
+use('erp');
+db.clientes.aggregate([
+  {
+    $addFields: {
+      idade: {
+        $divide: [
+          { $subtract: [new Date(), "$dataNascimento"] },
+          { $multiply: [86400000 * 365] }
+        ]
+      }
+    }
+  },
+  { 
+    $project: {
+      _id: 0,
+      nome: 1,
+      idade: { $ceil: '$idade' }
+    } 
+  },
+  {
+    $match: { idade: { $gte: 18, $lt: 26 } }
+  },
+  { $count: "idade" }
+])
+
+// Exercício 3 : Remova os estágios $count e $match do exercício anterior e adicione um estágio no pipeline que coloque as compras do cliente no campo compras .
+
+use('erp');
+db.clientes.aggregate([
+  {
+    $addFields: {
+      idade: {
+        $divide: [
+          { $subtract: [new Date(), "$dataNascimento"] },
+          { $multiply: [86400000 * 365] }
+        ]
+      }
+    }
+  },
+  { 
+    $project: {
+      _id: 0,
+      nome: 1,
+      idade: { $ceil: '$idade' }
+    } 
+  },
+])
+
+use('erp');
+db.vendas.aggregate();
+
+// Exercício 4 : Selecione TODOS os clientes que compraram entre Junho de 2019 e Março de 2020 .
+
+use('erp');
+db.clientes.aggregate([
+  {
+    $addFields: {
+      idade: {
+        $divide: [
+          { $subtract: [new Date(), "$dataNascimento"] },
+          { $multiply: [86400000 * 365] }
+        ]
+      }
+    }
+  },
+  {
+    $lookup: {
+      from: 'vendas',
+      localField: 'clienteId',
+      foreignField: 'clienteId',
+      as: 'compras'
+    }
+  },
+  {
+    $match: {
+      "compras.dataVenda": {
+        $gte: ISODate("2019-06-01"),
+        $lte: ISODate("2020-03-31") 
+      }
+    }
+  },
+  { 
+    $project: {
+      _id: 0,
+      clienteId: 1,
+      nome: 1,
+      idade: { $ceil: '$idade' },
+    } 
+  },
+]).itcount();
+
+use('erp');
+db.vendas.aggregate([
+  {
+    $match: {
+      dataVenda: {
+        $gte: ISODate("2019-06-01"),
+        $lte: ISODate("2020-03-31") 
+      }
+    }
+  }
+]).itcount();
+
+// Exercício 5 : Confira o número de documentos retornados pelo pipeline com o método itcount() . Até aqui, você deve ter 486 documentos sendo retornados.
+// Exercício 6 : Ainda nesse pipeline , descubra os 5 estados com mais compras.
+// Exercício 7 : Descubra o cliente que mais consumiu QUEIJO PRATO . Retorne um documento com a seguinte estrutura:
+// Copiar
+// {
+//   "nomeCliente": "NOME",
+//   "uf": "UF DO CLIENTE",
+//   "totalConsumido": 100
+// }
+// Exercício 8 : Selecione todas as vendas do mês de Março de 2020 , com status EM SEPARACAO . Acrescente um campo chamado dataEntregaPrevista com valor igual a três dias após a data da venda. Retorne apenas os campos clienteId , dataVenda e dataEntregaPrevista .

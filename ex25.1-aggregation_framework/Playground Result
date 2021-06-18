@@ -1,0 +1,82 @@
+[
+  {
+    "totalVendas": 14,
+    "uf": "AP"
+  },
+  {
+    "totalVendas": 29,
+    "uf": "AC"
+  },
+  {
+    "totalVendas": 13,
+    "uf": "RO"
+  },
+  {
+    "totalVendas": 16,
+    "uf": "ES"
+  },
+  {
+    "totalVendas": 10,
+    "uf": "MS"
+  },
+  {
+    "totalVendas": 8,
+    "uf": "MA"
+  },
+  {
+    "totalVendas": 12,
+    "uf": "SP"
+  },
+  {
+    "totalVendas": 27,
+    "uf": "AL"
+  },
+  {
+    "totalVendas": 14,
+    "uf": "BA"
+  },
+  {
+    "totalVendas": 6,
+    "uf": "PI"
+  },
+  {
+    "totalVendas": 25,
+    "uf": "MG"
+  },
+  {
+    "totalVendas": 27,
+    "uf": "MT"
+  },
+  {
+    "totalVendas": 18,
+    "uf": "AM"
+  },
+  {
+    "totalVendas": 30,
+    "uf": "RR"
+  },
+  {
+    "totalVendas": 21,
+    "uf": "SC"
+  },
+  {
+    "totalVendas": 16,
+    "uf": "PR"
+  },
+  {
+    "totalVendas": 22,
+    "uf": "CE"
+  },
+  {
+    "totalVendas": 37,
+    "uf": "PA"
+  },
+  {
+    "totalVendas": 17,
+    "uf": "PB"
+  },
+  {
+    "totalVendas": 17,
+    "uf": "RN"
+  }
+]
